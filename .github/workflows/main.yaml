@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: evil-action@v2  # <--- This is the trigger!!!!
+      - uses: evil-action@v1  # <--- evil-action@v1 is Risky. evil-action@v2 is Safe. 
